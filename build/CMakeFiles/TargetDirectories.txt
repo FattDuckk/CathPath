@@ -1,0 +1,4 @@
+/home/fatduck/git/CathPath/build/CMakeFiles/cathpath_core.dir
+/home/fatduck/git/CathPath/build/CMakeFiles/cathpath.dir
+/home/fatduck/git/CathPath/build/CMakeFiles/edit_cache.dir
+/home/fatduck/git/CathPath/build/CMakeFiles/rebuild_cache.dir

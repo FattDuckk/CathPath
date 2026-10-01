@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/fatduck/git/CathPath/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Eigen3::Eigen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Eigen3__Eigen-Debug-1c86191fa5e225cab044.json",
+					"name" : "Eigen3::Eigen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Open3D::3rdparty_eigen3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Open3D__3rdparty_eigen3-Debug-9e8cc7a8ea1659ddfc47.json",
+					"name" : "Open3D::3rdparty_eigen3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Open3D::3rdparty_fmt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Open3D__3rdparty_fmt-Debug-574a6d8d828b38f076c1.json",
+					"name" : "Open3D::3rdparty_fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Open3D::Open3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Open3D__Open3D-Debug-2a7d2571d40cc55e1461.json",
+					"name" : "Open3D::Open3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt::fmt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt__fmt-Debug-3b7c7680f46569872c72.json",
+					"name" : "fmt::fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt::fmt-header-only::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt__fmt-header-only-Debug-2723fa7bd03a526a4af7.json",
+					"name" : "fmt::fmt-header-only",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.2.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CathPath",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cathpath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cathpath-Debug-08b92b50490f8e853cf2.json",
+					"name" : "cathpath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cathpath_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cathpath_core-Debug-f1d147fb1c07e95af686.json",
+					"name" : "cathpath_core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fatduck/git/CathPath/build",
+		"source" : "/home/fatduck/git/CathPath"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

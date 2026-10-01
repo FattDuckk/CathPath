@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/cathpath.dir/link.d CMakeFiles/cathpath.dir/src/main.cpp.o -o cathpath  libcathpath_core.a /usr/lib/x86_64-linux-gnu/libOpen3D.so.0.19.0 /usr/lib/x86_64-linux-gnu/libfmt.so.10.1.0
