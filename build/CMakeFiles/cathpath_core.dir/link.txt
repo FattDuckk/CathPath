@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcathpath_core.a CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o
+/usr/bin/ar qc libcathpath_core.a CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o CMakeFiles/cathpath_core.dir/src/centreline.cpp.o
 /usr/bin/ranlib libcathpath_core.a

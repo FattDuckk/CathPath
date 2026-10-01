@@ -1,5 +1,5 @@
-CMakeFiles/cathpath.dir/src/main.cpp.o: \
- /home/fatduck/git/CathPath/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.o: \
+ /home/fatduck/git/CathPath/src/centreline.cpp /usr/include/stdc-predef.h \
  /home/fatduck/git/CathPath/include/cathpath/centreline.hpp \
  /home/fatduck/git/CathPath/include/cathpath/voxel_grid.hpp \
  /usr/include/open3d/Open3D.h /usr/include/open3d/Open3DConfig.h \
@@ -643,4 +643,6 @@ CMakeFiles/cathpath.dir/src/main.cpp.o: \
  /usr/include/open3d/t/io/sensor/realsense/RealSenseSensor.h \
  /usr/include/open3d/t/io/sensor/RGBDSensor.h \
  /usr/include/open3d/t/io/sensor/realsense/RealSenseSensorConfig.h \
- /home/fatduck/git/CathPath/include/cathpath/mesh_utils.hpp
+ /usr/include/c++/15/queue /usr/include/c++/15/deque \
+ /usr/include/c++/15/bits/stl_deque.h /usr/include/c++/15/bits/deque.tcc \
+ /usr/include/c++/15/bits/stl_queue.h

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/fatduck/git/CathPath/src/centreline.cpp" "CMakeFiles/cathpath_core.dir/src/centreline.cpp.o" "gcc" "CMakeFiles/cathpath_core.dir/src/centreline.cpp.o.d"
   "/home/fatduck/git/CathPath/src/mesh_utils.cpp" "CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o" "gcc" "CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o.d"
   "/home/fatduck/git/CathPath/src/voxel_grid.cpp" "CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o" "gcc" "CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o.d"
   )

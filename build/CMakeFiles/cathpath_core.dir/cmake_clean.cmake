@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cathpath_core.dir/src/centreline.cpp.o"
+  "CMakeFiles/cathpath_core.dir/src/centreline.cpp.o.d"
   "CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o"
   "CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o.d"
   "CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o"

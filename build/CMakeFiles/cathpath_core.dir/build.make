@@ -100,19 +100,35 @@ CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatduck/git/CathPath/src/voxel_grid.cpp -o CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.s
 
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.o: CMakeFiles/cathpath_core.dir/flags.make
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.o: /home/fatduck/git/CathPath/src/centreline.cpp
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.o: CMakeFiles/cathpath_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/fatduck/git/CathPath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cathpath_core.dir/src/centreline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cathpath_core.dir/src/centreline.cpp.o -MF CMakeFiles/cathpath_core.dir/src/centreline.cpp.o.d -o CMakeFiles/cathpath_core.dir/src/centreline.cpp.o -c /home/fatduck/git/CathPath/src/centreline.cpp
+
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cathpath_core.dir/src/centreline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatduck/git/CathPath/src/centreline.cpp > CMakeFiles/cathpath_core.dir/src/centreline.cpp.i
+
+CMakeFiles/cathpath_core.dir/src/centreline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cathpath_core.dir/src/centreline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatduck/git/CathPath/src/centreline.cpp -o CMakeFiles/cathpath_core.dir/src/centreline.cpp.s
+
 # Object files for target cathpath_core
 cathpath_core_OBJECTS = \
 "CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o" \
-"CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o"
+"CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o" \
+"CMakeFiles/cathpath_core.dir/src/centreline.cpp.o"
 
 # External object files for target cathpath_core
 cathpath_core_EXTERNAL_OBJECTS =
 
 libcathpath_core.a: CMakeFiles/cathpath_core.dir/src/mesh_utils.cpp.o
 libcathpath_core.a: CMakeFiles/cathpath_core.dir/src/voxel_grid.cpp.o
+libcathpath_core.a: CMakeFiles/cathpath_core.dir/src/centreline.cpp.o
 libcathpath_core.a: CMakeFiles/cathpath_core.dir/build.make
 libcathpath_core.a: CMakeFiles/cathpath_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fatduck/git/CathPath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcathpath_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/fatduck/git/CathPath/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libcathpath_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cathpath_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cathpath_core.dir/link.txt --verbose=$(VERBOSE)
 

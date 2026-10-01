@@ -13,6 +13,12 @@
 },
 {
   "directory": "/home/fatduck/git/CathPath/build",
+  "command": "/usr/bin/c++ -DFMT_SHARED -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/fatduck/git/CathPath/include -isystem /usr/include/eigen3 -g -o CMakeFiles/cathpath_core.dir/src/centreline.cpp.o -c /home/fatduck/git/CathPath/src/centreline.cpp",
+  "file": "/home/fatduck/git/CathPath/src/centreline.cpp",
+  "output": "CMakeFiles/cathpath_core.dir/src/centreline.cpp.o"
+},
+{
+  "directory": "/home/fatduck/git/CathPath/build",
   "command": "/usr/bin/c++ -DFMT_SHARED -D_GLIBCXX_USE_CXX11_ABI=1 -I/home/fatduck/git/CathPath/include -isystem /usr/include/eigen3 -g -o CMakeFiles/cathpath.dir/src/main.cpp.o -c /home/fatduck/git/CathPath/src/main.cpp",
   "file": "/home/fatduck/git/CathPath/src/main.cpp",
   "output": "CMakeFiles/cathpath.dir/src/main.cpp.o"

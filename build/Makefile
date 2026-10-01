@@ -149,6 +149,30 @@ cathpath/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cathpath.dir/build.make CMakeFiles/cathpath.dir/build
 .PHONY : cathpath/fast
 
+src/centreline.o: src/centreline.cpp.o
+.PHONY : src/centreline.o
+
+# target to build an object file
+src/centreline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cathpath_core.dir/build.make CMakeFiles/cathpath_core.dir/src/centreline.cpp.o
+.PHONY : src/centreline.cpp.o
+
+src/centreline.i: src/centreline.cpp.i
+.PHONY : src/centreline.i
+
+# target to preprocess a source file
+src/centreline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cathpath_core.dir/build.make CMakeFiles/cathpath_core.dir/src/centreline.cpp.i
+.PHONY : src/centreline.cpp.i
+
+src/centreline.s: src/centreline.cpp.s
+.PHONY : src/centreline.s
+
+# target to generate assembly for a file
+src/centreline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cathpath_core.dir/build.make CMakeFiles/cathpath_core.dir/src/centreline.cpp.s
+.PHONY : src/centreline.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -232,6 +256,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cathpath"
 	@echo "... cathpath_core"
+	@echo "... src/centreline.o"
+	@echo "... src/centreline.i"
+	@echo "... src/centreline.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

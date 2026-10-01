@@ -59,14 +59,16 @@ void floodFill(Grid& g) {
 }
 
 // turn every voxel with a given label into an Open3D VoxelGrid for drawing
-std::shared_ptr<VoxelGrid> toVoxelGrid(const Grid& g, uint8_t label) {
+std::shared_ptr<VoxelGrid> toDistanceVoxelGrid(const Grid& g, const std::vector<float>& d, float minFrac) {
+    float maxD = *std::max_element(d.begin(), d.end());
     auto out = std::make_shared<VoxelGrid>();
     out->voxel_size_ = g.voxel;
     out->origin_ = g.origin;
-    for (int z = 0; z < g.nz; ++z)
-        for (int y = 0; y < g.ny; ++y)
-            for (int x = 0; x < g.nx; ++x)
-                if (g.v[g.idx(x, y, z)] == label)
-                    out->AddVoxel(open3d::geometry::Voxel(Eigen::Vector3i(x, y, z)));
+    for (int i = 0; i < (int)g.v.size(); ++i) {
+        if (g.v[i] != INSIDE) continue;
+        double t = d[i] / maxD;
+        if (t < minFrac) continue;
+        out->AddVoxel(open3d::geometry::Voxel(g.xyz(i), Eigen::Vector3d(t, 0.2, 1.0 - t)));
+    }
     return out;
 }
